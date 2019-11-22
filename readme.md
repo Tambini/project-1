@@ -1,19 +1,18 @@
-Title of project:   The Real Donald Trump? Trump Baby?  
+# Title of project:   The Real Donald Trump? Trump Baby?  
 
-Api to use: 
 
-Description:
+# Description:
 
 I want to create an game that is similar to duck hunt where there will be a bunch of trump baby ballons floating around and you have to pop them.  When you click on them they will pop and then quotes he said that come from the tonalddump api pop up. As each ballon pops you get a certain amount of points.  Then after a certain amount of points you will advance to next level.The next level will display a different background and the speed of the moving balloons gets faster and harder to pop.    
 
-Wireframes:
-Desktop:
+# Wireframes:
+# Desktop:
 
-Tablet/Mobile
+# Tablet/Mobile
 
 
 
-API What API you want to use and what information you want to get from it. *You must show us a sample of actual data you retrieved from your API.
+# API What API you want to use and what information you want to get from it. *You must show us a sample of actual data you retrieved from your API.
 https://docs.tronalddump.io/#search-quotes 
 {
 count: 25,
@@ -59,14 +58,14 @@ url: "https://twitter.com/realdonaldtrump/status/510935518360895488"
 },
 
 
-Features:
+# Features:
 - Landing Page
 - Game Page
 - Moving Balloons
 - Counter
 - Connecting API
 
-Stretch goals Stretch goals for additional / advanced features for when you complete your MVP.
+# Stretch goals Stretch goals for additional / advanced features for when you complete your MVP.
 - Animate image on landing page
 - add balloons of other presidends in third level to make it harder to only click on trump
 
