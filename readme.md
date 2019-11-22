@@ -7,9 +7,16 @@ I want to create an game that is similar to duck hunt where there will be a bunc
 
 ### Wireframes:
 ### Desktop:
+- Landing Page
+![](https://imgur.com/Wh3kaXq.jpg)
+- Game 
+![](https://imgur.com/yANgX7u.jpg)
 
 ### Tablet/Mobile
-
+- Landing Page
+![](https://imgur.com/EMW2OwK.jpg)
+- Game
+![](https://imgur.com/jCW01hh.jpg)
 
 
 ### API What API you want to use and what information you want to get from it. *You must show us a sample of actual data you retrieved from your API.
