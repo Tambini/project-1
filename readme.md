@@ -21,7 +21,8 @@ I want to create an game that is similar to duck hunt where there will be a bunc
 
 ### API What API you want to use and what information you want to get from it. *You must show us a sample of actual data you retrieved from your API.
 https://docs.tronalddump.io/#search-quotes 
-{
+
+```{
 count: 25,
 total: 25,
 _embedded: {
@@ -63,7 +64,7 @@ url: "https://twitter.com/realdonaldtrump/status/510935518360895488"
 ]
 }
 },
-
+```
 
 ### Features:
 - Landing Page
