@@ -3,7 +3,7 @@
 
 ### Description:
 
-I want to create an game that is similar to duck hunt where there will be a bunch of trump baby ballons floating around and you have to pop them.  When you click on them they will pop and then quotes he said that come from the tonalddump api pop up. As each ballon pops you get a certain amount of points.  Then after a certain amount of points you will advance to next level.The next level will display a different background and the speed of the moving balloons gets faster and harder to pop.    
+I want to create an game that is similar to duck hunt where there will be a bunch of trump baby balloons floating around and you have to pop them.  When you click on them they will pop and then quotes he said that come from the tonalddump api pop up. As each ballon pops you get a certain amount of points.  Then after a certain amount of points you will advance to next level.The next level will display a different background and the speed of the moving balloons gets faster and harder to pop.    
 
 ### Wireframes:
 ### Desktop:
