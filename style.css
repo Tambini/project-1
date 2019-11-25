@@ -21,7 +21,7 @@ html {
     background-position: 25% 75%;
     width: 150px;
     height:180px;  
-    transition: top 4s, left 4s;
+    transition: top 3s, left 3s;
     transition-timing-function: linear;
 } 
 

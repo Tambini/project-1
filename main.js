@@ -26,14 +26,30 @@ window.onload = function () {
   }
   addBalloon()
 
+  // now I will make the balloon move on the page on refresh
+
   function moveballoon() {
     const balloon = document.querySelector(".balloon");
-    balloon.style.left = Math.random() * window.innerWidth + "px";
+    // balloon.style.bottom = Math.random() * window.innerWidth + "px";
+    balloon.style.left = Math.random() * window.innerHeight + "px";
     balloon.style.top = Math.random() * window.innerHeight + "px";
   }
-
   moveballoon()
 
+  // now I need to make the balloon move all over the page without
+  // having to hit refresh
+  const moveBalloonObject = obj => {
+    // obj.style.bottom = Math.random() * window.innerWidth + "px";
+    obj.style.left = Math.random() * window.innerHeight + "px";
+    obj.style.top = Math.random() * window.innerHeight + "px";
+  };
 
+  setInterval(function () {
+    moveBalloonObject(document.querySelector(".balloon"));
+  }, 250);
+
+  moveballoon()
 }
+
+
 
