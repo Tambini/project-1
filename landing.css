@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-image: url(images/london.jpg);
+  background-image: url(images/whitehouse.jpg);
   background-size: cover;
   background-position: center;
   image-rendering: optimizeSpeed;
@@ -15,13 +15,6 @@ html {
   overflow: hidden;
 }
 
-.balloon{
-    position: absolute;
-    background: url("images/trump-balloon2.png") no-repeat center center;
-    /* background-position: 25% 75%; */
-    width: 150px;
-    height:180px;  
-    transition: top 2s, left 2s;
-    transition-timing-function: linear;
-} 
-
+.class{
+  title
+}
