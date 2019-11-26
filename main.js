@@ -2,9 +2,9 @@
 window.onload = function () {
 
   // First I set up the api to verify I could use it  
-
   const apiUrl = 'https://api.tronalddump.io/random/quote';
   const button = document.querySelector("button")
+
   async function triggerApi() {
     //   explode.addEventListener("click", async function (evt) {
     //     evt.preventDefault();
@@ -19,7 +19,6 @@ window.onload = function () {
 
   // I used the duck hunt excercise as a guide to build my page
   //Now i'm going to create the ballon to show up on the page
-
   function addBalloon() {
     const body = document.querySelector("body")
     const balloon = document.createElement("div")
@@ -73,7 +72,7 @@ window.onload = function () {
   // now I need to add a way to remove the pop image  
         setTimeout(function () {
           document.querySelector(".explode").remove();
-        }, 1000)
+        }, 700)
 
       })
 
@@ -81,6 +80,14 @@ window.onload = function () {
 
   }
   pop();
+
+
+
+
+
+
+
+  
 
 
 

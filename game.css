@@ -1,0 +1,34 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/london.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.balloon{
+    position: absolute;
+    background: url("images/trump-balloon2.png") no-repeat center center;
+    width: 150px;
+    height:180px;  
+    transition: top 2s, left 2s;
+    transition-timing-function: linear;
+} 
+
+.explode{
+  background-position: center;
+  background-image: url("images/pop.png")
+}
+
+.quote{
+  color:blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: auto;
+  
+
+}
