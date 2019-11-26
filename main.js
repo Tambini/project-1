@@ -57,16 +57,14 @@ window.onload = function () {
     for (let i = 0; i < balloons.length; i++) {
       balloons[i].addEventListener("click", function () {
         this.classList.add("explode");
-        // console.log("this", this)
-
-
-        // now I need a way to trigger the API
+    
+        // I need a way to trigger the API
         setTimeout(async function () {
-          // console.log("this", this)
+        
           document.querySelector(".quote").innerHTML = await triggerApi();
         }, 500)
 
-        // now I need to add a way to remove the pop image  
+        // I need to add a way to remove the pop image  
         setTimeout(function () {
           document.querySelector(".explode").remove();
         }, 700)
@@ -74,15 +72,14 @@ window.onload = function () {
         setTimeout(function () {
           winner();
         }, 1000)
-
-
-
       })
 
     }
 
   }
   pop();
+
+  // I used the dots game to help me display the winners screen
 
   function winner() {
     let balloons = document.querySelectorAll(".balloon");
