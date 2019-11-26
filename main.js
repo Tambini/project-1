@@ -3,11 +3,9 @@ window.onload = function () {
 
   // First I set up the api to verify I could use it  
   const apiUrl = 'https://api.tronalddump.io/random/quote';
-  const button = document.querySelector("button")
 
   async function triggerApi() {
-    //   explode.addEventListener("click", async function (evt) {
-    //     evt.preventDefault();
+    //axios.get(URL, { headers: { Authorization: AuthStr } })
     const result = await axios.get(`${apiUrl}`, {
       headers: { 'accept': 'application/hal+json' }
     })
@@ -23,11 +21,8 @@ window.onload = function () {
     const body = document.querySelector("body")
     const balloon = document.createElement("div")
     balloon.classList.add("balloon");
-
-    // const quoteTrump = await triggerApi();
-    // balloon.setAttribute("data-quote", quoteTrump);
-    // console.log(balloon)
     body.appendChild(balloon);
+    console.log(body)
 
 
     function randomPosition() {
@@ -52,7 +47,7 @@ window.onload = function () {
       addBalloon()
     }
   }
-  multipleBalloons(10)
+  multipleBalloons(1)
 
 
   // now I have to add an event handler so when you click on the click event handler you 
@@ -62,17 +57,25 @@ window.onload = function () {
     for (let i = 0; i < balloons.length; i++) {
       balloons[i].addEventListener("click", function () {
         this.classList.add("explode");
-        console.log("this", this)
+        // console.log("this", this)
 
-       // now I need a way to trigger the API
+
+        // now I need a way to trigger the API
         setTimeout(async function () {
-          console.log("this", this)
+          // console.log("this", this)
           document.querySelector(".quote").innerHTML = await triggerApi();
         }, 500)
-  // now I need to add a way to remove the pop image  
+
+        // now I need to add a way to remove the pop image  
         setTimeout(function () {
           document.querySelector(".explode").remove();
         }, 700)
+
+        setTimeout(function () {
+          winner();
+        }, 1000)
+
+
 
       })
 
@@ -81,33 +84,15 @@ window.onload = function () {
   }
   pop();
 
+  function winner() {
+    let balloons = document.querySelectorAll(".balloon");
+    let winnerScreen = document.querySelector(".winner-screen")
+    if (balloons.length === 0) {
+      winnerScreen.classList.add("next-level")
+      console.log("ran winner function")
+    }
+    console.log(balloons.length)
 
-
-
-
-
-
-  
-
-
-
+  }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

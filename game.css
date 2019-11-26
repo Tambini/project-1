@@ -29,6 +29,19 @@ html {
   justify-content: center;
   width: 1000px;
   height: auto;
-  
+}
+
+.winner-screen{
+  /* background-size: cover; */
+  background-color: #111;
+  opacity: 0;
+  max-width: 99%;
+  max-height: 99%;
 
 }
+
+.next-level{
+  opacity: 1;
+  background-size: cover;
+}
+
