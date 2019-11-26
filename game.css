@@ -24,11 +24,12 @@ html {
 
 .quote{
   color:blue;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   justify-content: center;
   width: 1000px;
   height: auto;
+  background-image: url("images/cloud.jpg");
 }
 
 .winner-screen{
@@ -60,7 +61,7 @@ p{
 }
 
 p>a {
-  text-decoration: none;
+
   color: white;
 
 }
