@@ -47,7 +47,7 @@ window.onload = function () {
       addBalloon()
     }
   }
-  multipleBalloons(1)
+  multipleBalloons(10)
 
 
   // now I have to add an event handler so when you click on the click event handler you 
@@ -57,10 +57,10 @@ window.onload = function () {
     for (let i = 0; i < balloons.length; i++) {
       balloons[i].addEventListener("click", function () {
         this.classList.add("explode");
-    
+
         // I need a way to trigger the API
         setTimeout(async function () {
-        
+
           document.querySelector(".quote").innerHTML = await triggerApi();
         }, 500)
 
