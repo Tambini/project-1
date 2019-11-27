@@ -77,5 +77,32 @@ p>a {
 
 }
 
+.plane{
+  background-image: url("images/plane.png");
+  /* background-size: auto 100%; */
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 200px;
+  will-change: background-position;
+  animation-name: move-plane;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  display: flex;
+  justify-content: center;
+  }
+  
+  @keyframes move-plane{
+    from{
+      margin-left: 0%;
+      margin-top: 25%;
+      margin-bottom: 100%;
+      width: 100%;
+    } 
+  
+    to {
+      margin-left: 75%;
+      margin-bottom:100%;
+      width: 100%;
+    }
 
 

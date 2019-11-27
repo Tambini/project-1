@@ -47,7 +47,7 @@ window.onload = function () {
       addBalloon()
     }
   }
-  multipleBalloons(5)
+  multipleBalloons(1)
 
 
   // now I have to add an event handler so when you click on the click event handler you 
