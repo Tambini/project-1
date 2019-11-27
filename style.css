@@ -8,15 +8,50 @@ html {
   overflow: hidden;
 }
 
-.button{
-  font-size: 40px;
-  font-family: Arial,;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-  display:flex;
-  justify-content: center;
-  margin: auto;
+.container{
+  background:url("images/trump.png");
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  margin-top: -50px;
+  margin-left: -100px;
 
 }
+a{
+ opacity: 0;
+}
 
+
+a:hover{
+  border-radius: 50%;
+  opacity: 1;
+}
+
+a:hover .overlay {
+  opacity: 1;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: url("images/trump-hover.png");
+} 
+
+span {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
