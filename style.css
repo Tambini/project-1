@@ -54,4 +54,18 @@ span {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-} */
+} 
+
+.baby{
+background-image: url("images/trump-baby.png");
+background-size: auto 100%;
+width: 300px;
+height: 372px;
+will-change: background-position;
+}
+
+@keyframes fly-cycle{
+  100%{
+    background-position : -900px 0;
+  }
+}
