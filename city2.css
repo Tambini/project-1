@@ -7,3 +7,32 @@ html {
   background-position: center;
   overflow: hidden;
 }
+
+.quote{
+  color:black;
+  /* display: flex; */
+  /* flex-wrap: wrap;  */
+  justify-content: center;
+  width: 500px;
+  height: 100px;
+  background: url("../project_1/images/cloud.png");
+  background-size: cover;
+}
+
+
+.winner-screen {
+  background-color:#9ADFFF;
+  background-size: cover;
+  opacity: 0;
+  min-width: 100%;
+  min-height: 1024px;
+
+  width:100%;
+  height:auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color:white;
+}
+
+
