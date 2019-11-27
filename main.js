@@ -2,7 +2,7 @@
 window.onload = function () {
 
   // First I set up the api to verify I could use it  
-  const apiUrl = 'https://api.tronalddump.io/random/quote';
+  const apiUrl = 'https://cors-anywhere.herokuapp.com/https://api.tronalddump.io/random/quote';
 
   async function triggerApi() {
     //axios.get(URL, { headers: { Authorization: AuthStr } })
