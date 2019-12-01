@@ -8,14 +8,15 @@ html {
   overflow: hidden;
 }
 
+
+
 .hover-container{
-  background:url("images/trump.png");
+  background:url("images/trump.png"); 
   position: absolute;
   top: 35%;
   left: 48%;
   margin-top: -50px;
-  margin-left: -100px;
-
+  margin-left: -100px; 
 }
 a{
  opacity: 0;

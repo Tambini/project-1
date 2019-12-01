@@ -27,12 +27,20 @@ html {
   /* display: flex; */
   /* flex-wrap: wrap;  */
   justify-content: center;
+  display:flex;
   width: 500px;
   height: 100px;
   background: url("../project_1/images/cloud.png");
   background-size: cover;
 }
 
+@media(max-width: 500px) {
+  .quote {
+    max-width: 300px;
+    font-size: 30px;
+  }
+
+}
 
 .winner-screen {
   background-color:#9ADFFF;
