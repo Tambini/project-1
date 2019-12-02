@@ -1,4 +1,5 @@
-## Title of project:   The Real Donald Trump? Trump Baby?  
+## Title of project:   Baby Trump
+- url: http://babytrump.surge.sh/  
 
 
 ### Description:
@@ -23,10 +24,15 @@ I want to create an game that is similar to duck hunt where there will be a bunc
 - Landing Page
 - Game Page
 - Moving Balloons
-- Counter
 - Connecting API
 
 ### Additional Features:
 - Animate image on landing page
+
+### Future Features:
 - add balloons of other presidends in third level to make it harder to only click on trump
+- add level 2
+- change api to pull in tweets from Donald Trump
+- add a way to read the quotes out loud
+
 
