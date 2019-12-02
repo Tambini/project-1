@@ -34,13 +34,7 @@ html {
   background-size: cover;
 }
 
-@media(max-width: 500px) {
-  .quote {
-    max-width: 300px;
-    font-size: 30px;
-  }
 
-}
 
 .winner-screen {
   background-color:#9ADFFF;
@@ -73,12 +67,7 @@ p{
   justify-content: center;
 }
 
-@media screen and (max-width:1024px){
-  .p{
-    left: 50%;
-    margin-left: -512px;
-  }
-}
+
 
 p>a {
   color: white;
@@ -112,4 +101,36 @@ p>a {
       margin-bottom:100%;
       width: 100%;
     }
+  }
+
+  /*tablet*/
+  @media screen and (max-width:1024px){
+    .p{
+      left: 50%;
+      margin-left: -512px;
+    }
+  }
+
+  /*mobile*/
+  @media screen and (max-width: 500px) {
+    .quote {
+      max-width: 300px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .title{
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    p{
+      font-size: 20px;
+      display:flex;
+      justify-content: center;
+    }
+    
+  }
+
+
 
